@@ -1,0 +1,215 @@
+Age	Gender	Weight	Height	BloodGlucoseFasting	BloodGlucosePostMeal	SleepHours	PhysicalActivityDays	PhysicalActivityIntensity	FamilyHistory	Ethnicity	ExistingConditions	Medications	FruitsVegetables	ProcessedFoods	SugaryDrinks	StressLevel	IncreasedThirst	FrequentUrination	UnexplainedWeightLoss	Fatigue	BlurredVision	SlowHealingSores	FrequentInfections	DiabetesRisk
+25	male	70	175	85	120	7	4	moderate	false	Caucasian	None	None	5	2	1	3	false	false	false	false	false	false	false	low
+34	female	65	162	92	140	6	2	low	true	Hispanic/Latino	Hypertension	Blood Pressure Medications	3	4	3	6	true	true	false	true	false	false	false	moderate
+45	male	85	180	110	180	5	1	low	true	African American	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	2	5	4	7	true	true	true	true	true	false	false	high
+28	female	58	165	78	105	8	5	high	false	Asian	None	None	6	1	0	2	false	false	false	false	false	false	false	low
+52	male	95	178	125	195	4	0	low	true	Caucasian	Heart Disease;High Cholesterol	Cholesterol Medications	1	6	5	8	true	true	true	true	true	true	true	very-high
+38	female	72	170	88	125	7	3	moderate	false	Mixed/Other	PCOS	Birth Control	4	3	2	4	false	true	false	true	false	false	false	moderate
+41	male	80	183	98	155	6	2	low	true	Native American	Prediabetes	Metformin	3	4	3	5	true	false	false	true	false	false	false	moderate
+29	female	63	160	82	115	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+55	male	105	175	140	220	3	0	low	true	Hispanic/Latino	Hypertension;Heart Disease;High Cholesterol	Blood Pressure Medications;Cholesterol Medications	1	7	6	9	true	true	true	true	true	true	true	very-high
+32	female	68	167	95	145	6	3	moderate	true	African American	Thyroid Disorders	Thyroid Medications	4	3	2	4	false	true	false	false	false	false	false	moderate
+47	male	88	182	115	175	5	1	low	true	Caucasian	High Cholesterol;Sleep Apnea	Cholesterol Medications	2	5	4	6	true	true	false	true	true	false	false	high
+26	female	61	158	80	110	8	5	high	false	Asian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+50	male	92	177	130	200	4	1	low	true	Mixed/Other	Hypertension;Kidney Disease	Blood Pressure Medications	2	6	5	8	true	true	true	true	true	true	false	very-high
+35	female	66	163	90	130	7	4	moderate	false	Caucasian	None	None	5	3	2	4	false	false	false	false	false	false	false	low
+43	male	78	179	105	165	5	2	low	true	Hispanic/Latino	High Cholesterol	Cholesterol Medications	3	4	3	6	true	false	false	true	false	false	false	moderate
+31	female	64	161	86	120	7	4	moderate	false	African American	None	None	5	2	2	3	false	false	false	false	false	false	false	low
+48	male	90	181	120	185	4	1	low	true	Caucasian	Hypertension;High Cholesterol	Blood Pressure Medications;Cholesterol Medications	2	5	4	7	true	true	true	true	true	false	false	high
+27	female	59	164	84	115	8	5	high	false	Asian	None	None	6	1	1	2	false	false	false	false	false	false	false	low
+53	male	98	176	135	210	3	0	low	true	Native American	Heart Disease;Hypertension	Blood Pressure Medications	1	6	5	9	true	true	true	true	true	true	true	very-high
+36	female	70	168	93	140	6	3	moderate	true	Caucasian	PCOS	Birth Control	4	3	2	5	false	true	false	true	false	false	false	moderate
+42	male	83	180	108	170	5	2	low	true	Hispanic/Latino	High Cholesterol;Prediabetes	Cholesterol Medications;Metformin	3	4	3	6	true	false	false	true	false	false	false	moderate
+30	female	62	159	81	112	8	6	high	false	Mixed/Other	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+56	male	102	174	142	225	3	0	low	true	African American	Hypertension;Heart Disease;Kidney Disease	Blood Pressure Medications	1	7	6	9	true	true	true	true	true	true	true	very-high
+33	female	67	166	92	135	7	4	moderate	false	Caucasian	None	None	5	3	2	4	false	false	false	false	false	false	false	low
+49	male	87	183	118	180	4	1	low	true	Asian	High Cholesterol;Sleep Apnea	Cholesterol Medications	2	5	4	7	true	true	false	true	true	false	false	high
+28	female	60	162	83	118	8	5	high	false	Caucasian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+51	male	94	178	128	195	4	0	low	true	Hispanic/Latino	Hypertension;High Cholesterol;Prediabetes	Blood Pressure Medications;Cholesterol Medications;Metformin	2	6	5	8	true	true	true	true	true	true	false	very-high
+37	female	69	169	89	128	7	3	moderate	true	Native American	Thyroid Disorders	Thyroid Medications	4	3	2	4	false	true	false	false	false	false	false	moderate
+44	male	81	181	112	175	5	2	low	true	Caucasian	High Cholesterol	Cholesterol Medications	3	4	3	6	true	false	false	true	false	false	false	moderate
+29	female	63	160	85	122	8	6	high	false	African American	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+54	male	100	176	138	215	3	0	low	true	Mixed/Other	Hypertension;Heart Disease;Sleep Apnea	Blood Pressure Medications	1	6	5	9	true	true	true	true	true	true	true	very-high
+34	female	65	164	91	132	6	4	moderate	false	Asian	None	None	5	3	2	4	false	false	false	false	false	false	false	low
+46	male	86	182	116	178	5	1	low	true	Caucasian	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	2	5	4	7	true	true	false	true	true	false	false	high
+26	female	58	157	79	108	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+52	male	96	177	132	205	4	0	low	true	African American	Hypertension;Kidney Disease;High Cholesterol	Blood Pressure Medications;Cholesterol Medications	2	6	5	8	true	true	true	true	true	true	false	very-high
+38	female	71	170	94	142	7	3	moderate	true	Caucasian	PCOS;Thyroid Disorders	Birth Control;Thyroid Medications	4	3	2	5	false	true	false	true	false	false	false	moderate
+41	male	79	179	106	168	5	2	low	true	Native American	High Cholesterol;Prediabetes	Cholesterol Medications;Metformin	3	4	3	6	true	false	false	true	false	false	false	moderate
+31	female	64	161	87	125	8	6	high	false	Mixed/Other	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+57	male	104	175	145	230	3	0	low	true	Caucasian	Hypertension;Heart Disease;Kidney Disease;High Cholesterol	Blood Pressure Medications;Cholesterol Medications	1	7	6	9	true	true	true	true	true	true	true	very-high
+35	female	68	167	96	148	6	4	moderate	false	Asian	None	None	5	3	2	4	false	false	false	false	false	false	false	low
+47	male	89	184	122	188	4	1	low	true	Hispanic/Latino	High Cholesterol;Sleep Apnea;Hypertension	Cholesterol Medications;Blood Pressure Medications	2	5	4	7	true	true	false	true	true	false	false	high
+27	female	61	163	82	116	8	5	high	false	African American	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+53	male	97	178	134	208	3	0	low	true	Caucasian	Hypertension;Heart Disease;High Cholesterol;Prediabetes	Blood Pressure Medications;Cholesterol Medications;Metformin	2	6	5	8	true	true	true	true	true	true	false	very-high
+39	female	72	171	97	152	7	3	moderate	true	Native American	PCOS	Birth Control	4	3	2	5	false	true	false	true	false	false	false	moderate
+43	male	82	180	109	172	5	2	low	true	Mixed/Other	High Cholesterol;Kidney Disease	Cholesterol Medications	3	4	3	6	true	false	false	true	false	false	false	moderate
+32	female	65	162	88	127	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+58	male	106	174	148	235	3	0	low	true	Hispanic/Latino	Hypertension;Heart Disease;Kidney Disease;High Cholesterol;Sleep Apnea	Blood Pressure Medications;Cholesterol Medications	1	7	6	9	true	true	true	true	true	true	true	very-high
+36	female	69	168	93	145	6	4	moderate	false	African American	Thyroid Disorders	Thyroid Medications	5	3	2	4	false	false	false	false	false	false	false	low
+48	male	90	185	125	192	4	1	low	true	Asian	High Cholesterol;Hypertension;Prediabetes	Cholesterol Medications;Blood Pressure Medications;Metformin	2	5	4	7	true	true	false	true	true	false	false	high
+28	female	62	164	84	119	8	5	high	false	Caucasian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+54	male	99	179	136	212	3	0	low	true	Native American	Hypertension;Heart Disease;High Cholesterol	Blood Pressure Medications;Cholesterol Medications	2	6	5	8	true	true	true	true	true	true	false	very-high
+40	female	73	172	98	155	7	3	moderate	true	Mixed/Other	PCOS;Thyroid Disorders	Birth Control;Thyroid Medications	4	3	2	5	false	true	false	true	false	false	false	moderate
+44	male	84	181	114	176	5	2	low	true	Caucasian	High Cholesterol;Sleep Apnea	Cholesterol Medications	3	4	3	6	true	false	false	true	false	false	false	moderate
+33	female	66	165	90	130	8	6	high	false	Hispanic/Latino	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+59	male	108	173	150	240	3	0	low	true	African American	Hypertension;Heart Disease;Kidney Disease;High Cholesterol;Sleep Apnea;Prediabetes	Blood Pressure Medications;Cholesterol Medications;Metformin	1	7	6	9	true	true	true	true	true	true	true	very-high
+37	female	70	169	95	150	6	4	moderate	false	Asian	None	None	5	3	2	4	false	false	false	false	false	false	false	low
+49	male	91	186	127	195	4	1	low	true	Caucasian	High Cholesterol;Hypertension;Heart Disease	Cholesterol Medications;Blood Pressure Medications	2	5	4	7	true	true	false	true	true	false	false	high
+29	female	63	166	86	123	8	5	high	false	Native American	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+55	male	101	180	140	218	3	0	low	true	Mixed/Other	Hypertension;Heart Disease;High Cholesterol;Kidney Disease	Blood Pressure Medications;Cholesterol Medications	2	6	5	8	true	true	true	true	true	true	false	very-high
+41	female	74	173	99	158	7	3	moderate	true	Caucasian	PCOS	Birth Control	4	3	2	5	false	true	false	true	false	false	false	moderate
+45	male	85	182	117	180	5	2	low	true	Hispanic/Latino	High Cholesterol;Prediabetes;Sleep Apnea	Cholesterol Medications;Metformin	3	4	3	6	true	false	false	true	false	false	false	moderate
+34	female	67	167	92	133	8	6	high	false	African American	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+60	male	110	172	152	245	3	0	low	true	Asian	Hypertension;Heart Disease;Kidney Disease;High Cholesterol;Sleep Apnea;Prediabetes	Blood Pressure Medications;Cholesterol Medications;Metformin	1	7	6	9	true	true	true	true	true	true	true	very-high
+38	female	71	170	96	152	6	4	moderate	false	Native American	Thyroid Disorders	Thyroid Medications	5	3	2	4	false	false	false	false	false	false	false	low
+50	male	92	187	129	198	4	1	low	true	Caucasian	High Cholesterol;Hypertension;Heart Disease;Prediabetes	Cholesterol Medications;Blood Pressure Medications;Metformin	2	5	4	7	true	true	false	true	true	false	false	high
+30	female	64	168	87	126	8	5	high	false	Mixed/Other	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+56	male	103	181	142	222	3	0	low	true	Hispanic/Latino	Hypertension;Heart Disease;High Cholesterol;Kidney Disease;Sleep Apnea	Blood Pressure Medications;Cholesterol Medications	2	6	5	8	true	true	true	true	true	true	false	very-high
+42	female	75	174	100	160	7	3	moderate	true	African American	PCOS;Thyroid Disorders	Birth Control;Thyroid Medications	4	3	2	5	false	true	false	true	false	false	false	moderate
+46	male	86	183	119	183	5	2	low	true	Asian	High Cholesterol;Sleep Apnea;Hypertension	Cholesterol Medications;Blood Pressure Medications	3	4	3	6	true	false	false	true	false	false	false	moderate
+35	female	68	169	93	136	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+61	male	112	171	155	250	3	0	low	true	Native American	Hypertension;Heart Disease;Kidney Disease;High Cholesterol;Sleep Apnea;Prediabetes;Depression/Anxiety	Blood Pressure Medications;Cholesterol Medications;Metformin;Antidepressants	1	7	6	9	true	true	true	true	true	true	true	very-high
+39	female	72	171	97	155	6	4	moderate	false	Mixed/Other	None	None	5	3	2	4	false	false	false	false	false	false	false	low
+51	male	93	188	131	201	4	1	low	true	Caucasian	High Cholesterol;Hypertension;Heart Disease;Sleep Apnea	Cholesterol Medications;Blood Pressure Medications	2	5	4	7	true	true	false	true	true	false	false	high
+31	female	65	170	88	129	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+57	male	104	182	144	225	3	0	low	true	African American	Hypertension;Heart Disease;High Cholesterol;Kidney Disease;Prediabetes	Blood Pressure Medications;Cholesterol Medications;Metformin	2	6	5	8	true	true	true	true	true	true	false	very-high
+43	female	76	175	101	163	7	3	moderate	true	Asian	PCOS	Birth Control	4	3	2	5	false	true	false	true	false	false	false	moderate
+47	male	87	184	121	186	5	2	low	true	Native American	High Cholesterol;Prediabetes;Hypertension	Cholesterol Medications;Metformin;Blood Pressure Medications	3	4	3	6	true	false	false	true	false	false	false	moderate
+36	female	69	172	94	139	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+62	male	114	170	158	255	3	0	low	true	Mixed/Other	Hypertension;Heart Disease;Kidney Disease;High Cholesterol;Sleep Apnea;Prediabetes;Depression/Anxiety	Blood Pressure Medications;Cholesterol Medications;Metformin;Antidepressants	1	7	6	9	true	true	true	true	true	true	true	very-high
+40	female	73	173	98	158	6	4	moderate	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	5	3	2	4	false	false	false	false	false	false	false	low
+52	male	94	189	133	204	4	1	low	true	African American	High Cholesterol;Hypertension;Heart Disease;Sleep Apnea;Prediabetes	Cholesterol Medications;Blood Pressure Medications;Metformin	2	5	4	7	true	true	false	true	true	false	false	high
+32	female	66	174	89	132	8	5	high	false	Asian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+58	male	105	183	146	228	3	0	low	true	Native American	Hypertension;Heart Disease;High Cholesterol;Kidney Disease;Sleep Apnea;Prediabetes	Blood Pressure Medications;Cholesterol Medications;Metformin	2	6	5	8	true	true	true	true	true	true	false	very-high
+44	female	77	176	102	166	7	3	moderate	true	Caucasian	PCOS;Thyroid Disorders	Birth Control;Thyroid Medications	4	3	2	5	false	true	false	true	false	false	false	moderate
+48	male	88	185	123	189	5	2	low	true	Mixed/Other	High Cholesterol;Sleep Apnea;Hypertension;Prediabetes	Cholesterol Medications;Blood Pressure Medications;Metformin	3	4	3	6	true	false	false	true	false	false	false	moderate
+37	female	70	175	95	142	8	6	high	false	Hispanic/Latino	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+63	male	116	169	160	260	3	0	low	true	African American	Hypertension;Heart Disease;Kidney Disease;High Cholesterol;Sleep Apnea;Prediabetes;Depression/Anxiety;Thyroid Disorders	Blood Pressure Medications;Cholesterol Medications;Metformin;Antidepressants;Thyroid Medications	1	7	6	9	true	true	true	true	true	true	true	very-high
+41	female	74	177	99	161	6	4	moderate	false	Asian	None	None	5	3	2	4	false	false	false	false	false	false	false	low
+53	male	95	190	135	207	4	1	low	true	Native American	High Cholesterol;Hypertension;Heart Disease;Sleep Apnea;Kidney Disease	Cholesterol Medications;Blood Pressure Medications	2	5	4	7	true	true	false	true	true	false	false	high
+33	female	67	178	90	135	8	5	high	false	Caucasian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+59	male	106	184	148	231	3	0	low	true	Mixed/Other	Hypertension;Heart Disease;High Cholesterol;Kidney Disease;Sleep Apnea;Prediabetes;Depression/Anxiety	Blood Pressure Medications;Cholesterol Medications;Metformin;Antidepressants	2	6	5	8	true	true	true	true	true	true	false	very-high
+45	female	78	179	103	169	7	3	moderate	true	Hispanic/Latino	PCOS	Birth Control	4	3	2	5	false	true	false	true	false	false	false	moderate
+49	male	89	186	125	192	5	2	low	true	African American	High Cholesterol;Prediabetes;Sleep Apnea;Hypertension	Cholesterol Medications;Metformin;Blood Pressure Medications	3	4	3	6	true	false	false	true	false	false	false	moderate
+38	female	71	180	96	145	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+64	male	118	168	162	265	3	0	low	true	Native American	Hypertension;Heart Disease;Kidney Disease;High Cholesterol;Sleep Apnea;Prediabetes;Depression/Anxiety;Thyroid Disorders	Blood Pressure Medications;Cholesterol Medications;Metformin;Antidepressants;Thyroid Medications	1	7	6	9	true	true	true	true	true	true	true	very-high
+42	female	75	181	100	164	6	4	moderate	false	Caucasian	Thyroid Disorders	Thyroid Medications	5	3	2	4	false	false	false	false	false	false	false	low
+54	male	96	191	137	210	4	1	low	true	Mixed/Other	High Cholesterol;Hypertension;Heart Disease;Sleep Apnea;Kidney Disease;Prediabetes	Cholesterol Medications;Blood Pressure Medications;Metformin	2	5	4	7	true	true	false	true	true	false	false	high
+34	female	68	182	91	138	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+60	male	107	185	150	234	3	0	low	true	African American	Hypertension;Heart Disease;High Cholesterol;Kidney Disease;Sleep Apnea;Prediabetes;Depression/Anxiety	Blood Pressure Medications;Cholesterol Medications;Metformin;Antidepressants	2	6	5	8	true	true	true	true	true	true	false	very-high
+46	female	79	183	104	172	7	3	moderate	true	Asian	PCOS;Thyroid Disorders	Birth Control;Thyroid Medications	4	3	2	5	false	true	false	true	false	false	false	moderate
+25	male	75	176	88	128	7	5	moderate	false	Caucasian	None	None	5	2	2	3	false	false	false	false	false	false	false	low
+26	female	60	165	82	118	8	6	high	false	Hispanic/Latino	None	None	6	1	1	2	false	false	false	false	false	false	false	low
+27	male	77	178	92	135	6	4	moderate	true	African American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+28	female	62	167	85	122	8	5	high	false	Asian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+29	male	79	180	90	130	7	4	moderate	false	Native American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+30	female	64	169	83	119	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+31	male	81	182	93	138	6	3	moderate	true	Mixed/Other	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+32	female	66	171	86	124	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+33	male	83	184	95	142	7	4	moderate	false	African American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+34	female	68	173	88	127	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+35	male	85	186	97	145	6	3	moderate	true	Native American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+36	female	70	175	90	131	8	5	high	false	Caucasian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+37	male	87	188	100	148	7	4	moderate	false	Mixed/Other	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+38	female	72	177	92	134	8	6	high	false	Hispanic/Latino	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+39	male	89	190	102	152	6	3	moderate	true	African American	High Cholesterol	Cholesterol Medications	4	3	2	4	false	false	false	false	false	false	false	moderate
+40	female	74	179	94	137	8	5	high	false	Asian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+41	male	91	192	105	155	7	4	moderate	false	Native American	Hypertension	Blood Pressure Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+42	female	76	181	96	140	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+43	male	93	194	107	158	6	3	moderate	true	Mixed/Other	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	4	3	2	4	false	false	false	false	false	false	false	moderate
+44	female	78	183	98	143	8	5	high	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	6	2	1	3	false	false	false	false	false	false	false	low
+45	male	95	196	110	162	7	4	moderate	false	African American	High Cholesterol	Cholesterol Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+46	female	80	185	100	146	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+47	male	97	198	112	165	6	3	moderate	true	Native American	High Cholesterol;Hypertension;Sleep Apnea	Cholesterol Medications;Blood Pressure Medications	4	3	2	4	false	false	false	true	false	false	false	moderate
+48	female	82	187	102	149	8	5	high	false	Caucasian	PCOS	Birth Control	6	2	1	3	false	false	false	false	false	false	false	low
+49	male	99	200	115	168	7	4	moderate	false	Mixed/Other	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+50	female	84	189	104	152	8	6	high	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	7	1	1	2	false	false	false	false	false	false	false	low
+24	male	73	174	86	125	7	5	moderate	false	Caucasian	None	None	5	2	2	3	false	false	false	false	false	false	false	low
+25	female	58	163	80	115	8	6	high	false	Asian	None	None	6	1	1	2	false	false	false	false	false	false	false	low
+26	male	76	177	89	129	6	4	moderate	true	African American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+27	female	61	166	83	120	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+28	male	78	179	91	132	7	4	moderate	false	Native American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+29	female	63	168	84	121	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+30	male	80	181	94	136	6	3	moderate	true	Mixed/Other	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+31	female	65	170	87	125	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+32	male	82	183	96	139	7	4	moderate	false	African American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+33	female	67	172	89	128	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+34	male	84	185	98	142	6	3	moderate	true	Native American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+35	female	69	174	91	131	8	5	high	false	Caucasian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+36	male	86	187	101	145	7	4	moderate	false	Mixed/Other	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+37	female	71	176	93	134	8	6	high	false	Hispanic/Latino	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+38	male	88	189	103	148	6	3	moderate	true	African American	High Cholesterol	Cholesterol Medications	4	3	2	4	false	false	false	false	false	false	false	moderate
+39	female	73	178	95	137	8	5	high	false	Asian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+40	male	90	191	106	151	7	4	moderate	false	Native American	Hypertension	Blood Pressure Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+41	female	75	180	97	140	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+42	male	92	193	108	154	6	3	moderate	true	Mixed/Other	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	4	3	2	4	false	false	false	false	false	false	false	moderate
+43	female	77	182	99	143	8	5	high	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	6	2	1	3	false	false	false	false	false	false	false	low
+44	male	94	195	111	157	7	4	moderate	false	African American	High Cholesterol	Cholesterol Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+45	female	79	184	101	146	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+46	male	96	197	113	160	6	3	moderate	true	Native American	High Cholesterol;Hypertension;Sleep Apnea	Cholesterol Medications;Blood Pressure Medications	4	3	2	4	false	false	false	true	false	false	false	moderate
+47	female	81	186	103	149	8	5	high	false	Caucasian	PCOS	Birth Control	6	2	1	3	false	false	false	false	false	false	false	low
+48	male	98	199	116	163	7	4	moderate	false	Mixed/Other	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+49	female	83	188	105	152	8	6	high	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	7	1	1	2	false	false	false	false	false	false	false	low
+23	male	71	172	84	123	7	5	moderate	false	Caucasian	None	None	5	2	2	3	false	false	false	false	false	false	false	low
+24	female	56	161	78	113	8	6	high	false	Asian	None	None	6	1	1	2	false	false	false	false	false	false	false	low
+25	male	74	175	87	127	6	4	moderate	true	African American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+26	female	59	164	81	117	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+27	male	76	177	90	131	7	4	moderate	false	Native American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+28	female	61	167	83	120	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+29	male	78	179	92	134	6	3	moderate	true	Mixed/Other	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+30	female	63	169	85	123	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+31	male	80	181	94	137	7	4	moderate	false	African American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+32	female	65	171	87	126	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+33	male	82	183	96	140	6	3	moderate	true	Native American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+34	female	67	173	89	129	8	5	high	false	Caucasian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+35	male	84	185	98	143	7	4	moderate	false	Mixed/Other	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+36	female	69	175	91	132	8	6	high	false	Hispanic/Latino	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+37	male	86	187	100	146	6	3	moderate	true	African American	High Cholesterol	Cholesterol Medications	4	3	2	4	false	false	false	false	false	false	false	moderate
+38	female	71	177	93	135	8	5	high	false	Asian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+39	male	88	189	102	149	7	4	moderate	false	Native American	Hypertension	Blood Pressure Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+40	female	73	179	95	138	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+41	male	90	191	105	152	6	3	moderate	true	Mixed/Other	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	4	3	2	4	false	false	false	false	false	false	false	moderate
+42	female	75	181	97	141	8	5	high	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	6	2	1	3	false	false	false	false	false	false	false	low
+43	male	92	193	107	155	7	4	moderate	false	African American	High Cholesterol	Cholesterol Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+44	female	77	183	99	144	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+45	male	94	195	110	158	6	3	moderate	true	Native American	High Cholesterol;Hypertension;Sleep Apnea	Cholesterol Medications;Blood Pressure Medications	4	3	2	4	false	false	false	true	false	false	false	moderate
+46	female	79	185	101	147	8	5	high	false	Caucasian	PCOS	Birth Control	6	2	1	3	false	false	false	false	false	false	false	low
+47	male	96	197	112	161	7	4	moderate	false	Mixed/Other	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+48	female	81	187	103	150	8	6	high	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	7	1	1	2	false	false	false	false	false	false	false	low
+22	male	69	170	82	121	7	5	moderate	false	Caucasian	None	None	5	2	2	3	false	false	false	false	false	false	false	low
+23	female	54	159	76	111	8	6	high	false	Asian	None	None	6	1	1	2	false	false	false	false	false	false	false	low
+24	male	72	173	85	125	6	4	moderate	true	African American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+25	female	57	162	79	115	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+26	male	74	175	88	128	7	4	moderate	false	Native American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+27	female	59	165	81	118	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+28	male	76	177	90	131	6	3	moderate	true	Mixed/Other	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+29	female	61	168	83	121	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+30	male	78	179	92	134	7	4	moderate	false	African American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+31	female	63	170	85	124	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+32	male	80	181	94	137	6	3	moderate	true	Native American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+33	female	65	172	87	127	8	5	high	false	Caucasian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+34	male	82	183	96	140	7	4	moderate	false	Mixed/Other	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+35	female	67	174	89	130	8	6	high	false	Hispanic/Latino	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+36	male	84	185	98	143	6	3	moderate	true	African American	High Cholesterol	Cholesterol Medications	4	3	2	4	false	false	false	false	false	false	false	moderate
+37	female	69	176	91	133	8	5	high	false	Asian	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+38	male	86	187	100	146	7	4	moderate	false	Native American	Hypertension	Blood Pressure Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+39	female	71	178	93	136	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+40	male	88	189	102	149	6	3	moderate	true	Mixed/Other	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	4	3	2	4	false	false	false	false	false	false	false	moderate
+41	female	73	180	95	139	8	5	high	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	6	2	1	3	false	false	false	false	false	false	false	low
+42	male	90	191	104	152	7	4	moderate	false	African American	High Cholesterol	Cholesterol Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+43	female	75	182	97	142	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+44	male	92	193	107	155	6	3	moderate	true	Native American	High Cholesterol;Hypertension;Sleep Apnea	Cholesterol Medications;Blood Pressure Medications	4	3	2	4	false	false	false	true	false	false	false	moderate
+45	female	77	184	99	145	8	5	high	false	Caucasian	PCOS	Birth Control	6	2	1	3	false	false	false	false	false	false	false	low
+46	male	94	195	109	158	7	4	moderate	false	Mixed/Other	High Cholesterol;Hypertension	Cholesterol Medications;Blood Pressure Medications	5	3	2	3	false	false	false	false	false	false	false	moderate
+47	female	79	186	101	148	8	6	high	false	Hispanic/Latino	Thyroid Disorders	Thyroid Medications	7	1	1	2	false	false	false	false	false	false	false	low
+21	male	67	168	80	119	7	5	moderate	false	Caucasian	None	None	5	2	2	3	false	false	false	false	false	false	false	low
+22	female	52	157	74	109	8	6	high	false	Asian	None	None	6	1	1	2	false	false	false	false	false	false	false	low
+23	male	70	171	83	123	6	4	moderate	true	African American	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+24	female	55	160	77	113	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+25	male	72	173	86	126	7	4	moderate	false	Native American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+26	female	57	163	79	116	8	6	high	false	Caucasian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
+27	male	74	175	88	129	6	3	moderate	true	Mixed/Other	None	None	4	3	2	4	false	false	false	false	false	false	false	low
+28	female	59	166	81	119	8	5	high	false	Hispanic/Latino	None	None	6	2	1	3	false	false	false	false	false	false	false	low
+29	male	76	177	90	132	7	4	moderate	false	African American	None	None	5	3	2	3	false	false	false	false	false	false	false	low
+30	female	61	169	83	122	8	6	high	false	Asian	None	None	7	1	1	2	false	false	false	false	false	false	false	low
