@@ -1,14 +1,9 @@
 import { HealthData, RiskPrediction, HealthReport } from '@/types/health';
 
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+const API_KEY = 'AIzaSyBAGhhh2P-wdWJbrVMfCk74-LFIiSdU-34';
 
-export class GeminiApiService {
-  private apiKey: string;
-
-  constructor(apiKey: string) {
-    this.apiKey = apiKey;
-  }
-
+export class PreTrainedModelService {
   async analyzeDiabetesRisk(healthData: HealthData): Promise<HealthReport> {
     const prompt = this.createAnalysisPrompt(healthData);
     
@@ -17,7 +12,7 @@ export class GeminiApiService {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-goog-api-key': this.apiKey,
+          'x-goog-api-key': API_KEY,
         },
         body: JSON.stringify({
           contents: [{
@@ -59,10 +54,10 @@ export class GeminiApiService {
       const result = await response.json();
       const analysisText = result.candidates[0].content.parts[0].text;
       
-      return this.parseGeminiResponse(analysisText, healthData);
+      return this.parseModelResponse(analysisText, healthData);
     } catch (error) {
-      console.error('Error calling Gemini API:', error);
-      throw new Error('Failed to analyze health data. Please check your API key and try again.');
+      console.error('Error calling pre-trained model:', error);
+      throw new Error('Failed to analyze health data. Please try again.');
     }
   }
 
@@ -127,7 +122,7 @@ Provide practical, evidence-based recommendations tailored to this specific pati
 `;
   }
 
-  private parseGeminiResponse(response: string, healthData: HealthData): HealthReport {
+  private parseModelResponse(response: string, healthData: HealthData): HealthReport {
     try {
       // Clean the response to extract JSON
       const jsonMatch = response.match(/\{[\s\S]*\}/);
@@ -238,4 +233,4 @@ Provide practical, evidence-based recommendations tailored to this specific pati
   }
 }
 
-export const createGeminiService = (apiKey: string) => new GeminiApiService(apiKey);
+export const createPreTrainedModelService = () => new PreTrainedModelService();

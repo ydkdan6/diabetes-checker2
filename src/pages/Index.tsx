@@ -1,43 +1,23 @@
 import React, { useState } from 'react';
 import { toast } from '@/hooks/use-toast';
-import ApiKeyInput from '@/components/ApiKeyInput';
 import HealthAssessmentForm from '@/components/HealthAssessmentForm';
 import HealthResults from '@/components/HealthResults';
 import { HealthData, HealthReport } from '@/types/health';
-import { createGeminiService } from '@/services/geminiApi';
+import { createPreTrainedModelService } from '@/services/geminiApi';
 import { generateReportPDF } from '@/utils/reportGenerator';
 
-type AppState = 'api-key' | 'assessment' | 'results';
+type AppState = 'assessment' | 'results';
 
 const Index = () => {
-  const [appState, setAppState] = useState<AppState>('api-key');
-  const [apiKey, setApiKey] = useState<string>('');
+  const [appState, setAppState] = useState<AppState>('assessment');
   const [healthReport, setHealthReport] = useState<HealthReport | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleApiKeySubmit = (key: string) => {
-    setApiKey(key);
-    setAppState('assessment');
-    toast({
-      title: "API Key Accepted",
-      description: "You can now proceed with your health assessment.",
-    });
-  };
-
   const handleHealthDataSubmit = async (healthData: HealthData) => {
-    if (!apiKey) {
-      toast({
-        title: "Error",
-        description: "API key is missing. Please refresh and try again.",
-        variant: "destructive",
-      });
-      return;
-    }
-
     setIsLoading(true);
     try {
-      const geminiService = createGeminiService(apiKey);
-      const report = await geminiService.analyzeDiabetesRisk(healthData);
+      const modelService = createPreTrainedModelService();
+      const report = await modelService.analyzeDiabetesRisk(healthData);
       setHealthReport(report);
       setAppState('results');
       
@@ -78,9 +58,6 @@ const Index = () => {
 
   const renderCurrentState = () => {
     switch (appState) {
-      case 'api-key':
-        return <ApiKeyInput onApiKeySubmit={handleApiKeySubmit} />;
-      
       case 'assessment':
         return (
           <div className="min-h-screen bg-gradient-bg font-poppins">
@@ -103,7 +80,14 @@ const Index = () => {
         ) : null;
       
       default:
-        return <ApiKeyInput onApiKeySubmit={handleApiKeySubmit} />;
+        return (
+          <div className="min-h-screen bg-gradient-bg font-poppins">
+            <HealthAssessmentForm 
+              onSubmit={handleHealthDataSubmit} 
+              isLoading={isLoading}
+            />
+          </div>
+        );
     }
   };
 
