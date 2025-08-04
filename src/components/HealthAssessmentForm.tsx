@@ -82,7 +82,7 @@ const HealthAssessmentForm: React.FC<HealthAssessmentFormProps> = ({ onSubmit, i
     <div className="max-w-4xl mx-auto p-6 space-y-8">
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-bold font-poppins bg-gradient-primary bg-clip-text text-transparent">
-          Glucose Guardian
+          AI Diabetes Risk Predictor
         </h1>
         <p className="text-xl text-muted-foreground">AI-Powered Diabetes Risk Assessment</p>
       </div>
